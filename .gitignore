@@ -1,0 +1,36 @@
+# Secrets
+.env
+*.pem
+
+# Data and model artifacts (too large / licensed separately)
+data/*
+!data/.gitkeep
+mlruns/
+mlartifacts/
+*.onnx
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# .NET
+bin/
+obj/
+*.user
+.vs/
+
+# Editors / OS
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+
+# Private prep material (not part of the public repo)
+screen/
+knowledge.md
+CLAUDE.md
